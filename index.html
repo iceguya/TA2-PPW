@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio | Muhammad Faisal</title>
+  <meta name="description" content="Portofolio pribadi: tentang, proyek, dan kontak." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Muhammad Faisal</h1>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="beranda" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h2>Web Developer yang (nyaris) waras</h2>
+        <p>
+          Fokus di Fullstack: Laravel, ReactJs serta PostgreSql. Tertarik pada aksesibilitas, performa, dan Optimalisasi Software dan hardwarwe.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#proyek">Lihat Proyek</a>
+          <a class="btn ghost" href="#kontak">Hubungi Saya</a>
+        </div>
+      </div>
+      <figure class="hero-media">
+        <img src="Images/faisal.jpg" alt="Foto profil Muhammad Faisal" />
+        <figcaption class="sr-only">Foto profil</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <section id="tentang" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Tentang Saya</h2>
+        <p class="lead">
+          Mahasiswa Informatika yang ngoprek web, ngulik data, dan sesekali berdamai dengan bug.
+        </p>
+      </header>
+
+      <article class="card">
+        <h3>Fokus & Keterampilan</h3>
+        <p>
+          Saya berfokus pada <span class="highlight">pengembangan antarmuka yang bersih</span> dan mudah diakses. 
+          Tumpuan: semantic HTML, responsive CSS, dan interaktivitas ringan.
+        </p>
+        <ul class="bullets">
+          <li>HTML untuk struktur</li>
+          <li>CSS untuk styling</li>
+          <li>JavaScript untuk interaktivitas</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+<section id="proyek" class="section alt">
+  <div class="container">
+    <header class="section-header">
+      <h2>Proyek Pilihan</h2>
+      <p class="lead">Beberapa proyek yang benar-benar ada isinya, bukan sekadar “Hello World”.</p>
+    </header>
+
+    <div class="grid">
+      <article class="card project">
+        <h3>Perpustakaan (Laravel + React)</h3>
+        <p>Sistem informasi perpustakaan: auth Sanctum, peminjaman, CRUD buku/anggota, laporan. Ada demo deploy.</p>
+        <ul class="tags">
+          <li>Laravel</li><li>React</li><li>REST API</li><li>Vite</li>
+        </ul>
+        <div class="project-actions">
+          <a class="btn" href="https://github.com/iceguya/Perpustakaan-" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h3>E-Commerce Hirawr</h3>
+        <p>Storefront berbasis Laravel: struktur lengkap (routes, models, migrations, tests). Cocok studi kasus back-office.</p>
+        <ul class="tags">
+          <li>Laravel</li><li>Blade</li><li>Tailwind</li>
+        </ul>
+        <div class="project-actions">
+          <a class="btn" href="https://github.com/iceguya/E-Commerce-Hirawr" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h3>BookShelf</h3>
+        <p>Frontend web pemula: localStorage, dua rak buku, pindah rak, hapus, tanpa framework.</p>
+        <ul class="tags">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <div class="project-actions">
+          <a class="btn" href="https://github.com/iceguya/BookShelf" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h3>SmartRoom ESP32</h3>
+        <p>IoT mini: otomasi ruangan pakai ESP32. Bukti kamu bisa keluar dari zona nyaman web.</p>
+        <ul class="tags">
+          <li>ESP32</li><li>C++</li><li>IoT</li>
+        </ul>
+        <div class="project-actions">
+          <a class="btn" href="https://github.com/iceguya/SmartRoomESP32" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h3>Todo App</h3>
+        <p>To-do berbasis DOM dengan auto update tanpa reload dan penyimpanan localStorage.</p>
+        <ul class="tags">
+          <li>JavaScript</li><li>DOM</li><li>LocalStorage</li>
+        </ul>
+        <div class="project-actions">
+          <a class="btn" href="https://github.com/iceguya/Todo-App" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="stats" class="section">
+  <div class="container">
+    <header class="section-header">
+      <h2>Languages Stats</h2>
+    </header>
+    <div class="stats-grid">
+      <div class="stats-card">
+        <img alt="Top Languages"
+             src="https://github-readme-stats.vercel.app/api/top-langs/?username=iceguya&layout=compact&theme=tokyonight&langs_count=8" />
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="kontak" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Kontak</h2>
+        <p class="lead">Ada proyek, tugas, atau sekadar butuh validasi CSS? Kirim pesan.</p>
+      </header>
+
+      <div class="form-wrapper">
+        <form class="form" action="#" method="POST" novalidate>
+          <div class="form-field">
+            <label for="nama">Nama Lengkap <span class="required">*</span></label>
+            <input type="text" id="nama" name="nama" required aria-required="true" />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required aria-required="true" />
+          </div>
+
+          <div class="form-field">
+            <label for="telepon">Nomor Telepon</label>
+            <input type="tel" id="telepon" name="telepon" inputmode="tel" />
+          </div>
+
+          <div class="form-field">
+            <label for="kota">Kota Asal</label>
+            <select id="kota" name="kota">
+              <option value="">Pilih Kota</option>
+              <option value="jakarta">Jakarta</option>
+              <option value="bandung">Bandung</option>
+              <option value="surabaya">Surabaya</option>
+              <option value="medan">Medan</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan atau catatan..."></textarea>
+          </div>
+
+          <button type="submit" class="btn primary">Kirim Data</button>
+        </form>
+
+        <aside class="contact-info card">
+          <h3>Info Lain</h3>
+          <p>Email: <a href="mailto:kunhide568@gmai.com">kunhide568@gmail.com</a></p>
+          <p>Website: <a href="https://github.com/iceguya" target="_blank" rel="noopener">Github</a></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Muhammad Faisal. Semua hak tidak terlalu dilindungi.</p>
+    </div>
+  </footer>
+</body>
+</html>
