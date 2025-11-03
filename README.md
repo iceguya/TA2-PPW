@@ -1,5 +1,3 @@
-Berikut **README.md versi lengkap, rapi, dan informatif** yang bisa langsung kamu pakai di GitHub. Sudah ditata agar terlihat profesional dan tetap mudah dipahami, lengkap dengan penjelasan workflow Git, struktur commit, dan alur branching.
-
 ---
 
 ````md
